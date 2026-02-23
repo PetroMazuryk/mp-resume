@@ -1,0 +1,21 @@
+.container-work {
+  padding: 10px 12px 10px 40px;
+}
+
+.title-name {
+  @include font(47px);
+}
+
+.title-work {
+  @include font(24px);
+}
+
+.title {
+  @include font(22px);
+}
+
+.additional-information {
+  max-width: 480px;
+  @include font;
+  margin-bottom: 10px;
+}
