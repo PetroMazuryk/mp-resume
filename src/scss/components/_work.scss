@@ -1,0 +1,24 @@
+.work-container {
+  padding-bottom: 10px;
+}
+
+.subtitle-work {
+  @include font($fs: 16px);
+  margin-bottom: 4px;
+}
+.subtitle-profession {
+  color: var(---black-color);
+}
+.working-hours {
+  @include font;
+  color: var(--black-color);
+}
+.delimiter {
+  color: var(--black-color);
+}
+.work-list {
+  color: var(--black-color);
+  font-family: Montserrat;
+  @include font;
+  margin-left: 20px;
+}

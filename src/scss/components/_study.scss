@@ -1,0 +1,17 @@
+.study-container {
+  .working-hours {
+    @include font;
+    margin-bottom: 10px;
+  }
+}
+
+.title-institution {
+  @include font($fs: 16px);
+  color: var(---black-color);
+  margin-bottom: 4px;
+}
+
+.study-profession {
+  @include font;
+  color: var(---black-color);
+}
